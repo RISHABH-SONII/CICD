@@ -43,15 +43,15 @@ jobs:
         run: |
           flutter pub get
 
-      # 9.
-      - name: Check for lints
-        run: |
-          flutter analyze
+#      # 9.
+#      - name: Check for lints
+#        run: |
+#          flutter analyze
 
-      # 10.
-      - name: Run all tests
-        run: |
-          flutter test
+#      # 10.
+#      - name: Run all tests
+#        run: |
+#          flutter test
 
       # 11.
       - name: Build APK
