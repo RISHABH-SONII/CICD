@@ -10,7 +10,7 @@ class CiCdTest extends StatefulWidget {
 class _CiCdTestState extends State<CiCdTest> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Column(
         children: [
           Text("Working module"),
